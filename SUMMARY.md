@@ -1,7 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* [Copyright infomation](copyright-infomation.md)
 * [Part 1: Preparing](part-1-preparing.md)
   * [Brief info about the Grove](part-1-preparing/brief-info-about-the-grove.md)
   * [About Microsoft Azure](part-1-preparing/about-microsoft-azure.md)
