@@ -1,6 +1,6 @@
-## Scenario 2: Sound&Light and relay
-#### What problem does Scenario 2 solve?
-short description the scenario 2. 
+## Scenario 5: Human detector
+#### What problem does Scenario 5 solve?
+short description the scenario 5. 
 And how we do.
 
 #### Hardware setup

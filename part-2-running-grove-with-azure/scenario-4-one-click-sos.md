@@ -1,6 +1,6 @@
-## Scenario 2: Sound&Light and relay
-#### What problem does Scenario 2 solve?
-short description the scenario 2. 
+## Scenario 4: One-Click SOS
+#### What problem does Scenario 4 solve?
+short description the scenario 4. 
 And how we do.
 
 #### Hardware setup

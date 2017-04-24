@@ -1,6 +1,6 @@
-## Scenario 2: Sound&Light and relay
-#### What problem does Scenario 2 solve?
-short description the scenario 2. 
+## Scenario 3: GAS monitor
+#### What problem does Scenario 3 solve?
+short description the scenario 3. 
 And how we do.
 
 #### Hardware setup
