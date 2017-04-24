@@ -7,8 +7,8 @@
   * [About Microsoft Azure](chapter1/brief-info-about-the-grove/about-microsoft-azure.md)
   * [Initialize Raspberry Pi and Azure](chapter1/initialize-raspberry-pi-and-azure.md)
 * [Part 2: Running Grove with Azure](part-2-running-grove-with-azure.md)
-  * Scenario 1: Don't catch cold
-  * Scenario 2: Sound&Light and relay
+  * [Scenario 1: Don't catch cold](part-2-running-grove-with-azure/scenario-1-dont-catch-cold.md)
+  * [Scenario 2: Sound&Light and relay](part-2-running-grove-with-azure/scenario-2-soundandlight-and-relay.md)
   * Scenario 3: Gas monitor
   * Scenario 4: One-Click SOS
   * Scenario 5: Human detector
