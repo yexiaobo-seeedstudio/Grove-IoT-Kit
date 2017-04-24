@@ -1,2 +1,0 @@
-## Copyright infomation
-Trademark, etc.
