@@ -2,7 +2,7 @@
 
 **Note:** This guide book specailly design for `Grove Kit for Win10 IoT Core & Azure Platform` which is created by [Seeed Studio](http://seeed.cc)'s Grove module and [Microsoft Azure](http://azure.microsoft.com) services.
 
--------------
+---
 
 Grove Kit for Win10 IoT Core & Azure Platform is an IoT development kit which contains some Grove hardware module and  designed for Microsoft Azure services.
 
@@ -58,7 +58,7 @@ PIR sensor sends human motion events to Microsoft Azure IoT Hub, within half an 
 
 1 x Grove - Relay
 
-1 xGrove - LCD RGB Backlight
+1 xGrove - OLED Display 0.96"
 
 1 xGrove - 4 Digit Display
 
