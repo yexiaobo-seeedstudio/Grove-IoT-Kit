@@ -38,35 +38,35 @@ PIR sensor sends human motion events to Microsoft Azure IoT Hub, within half an 
 
 **What's included?**
 
-1 xGrvoePi+
+1 x GrvoePi+
 
 `Sensor:`
 
-1 xGrove - Temp&Humi Sensor
+1 x Grove - Temp&Humi Sensor
 
-1 xGrove - PIR Motion Sensor
+1 x Grove - PIR Motion Sensor
 
-1 xGrove - Sound Sensor
+1 x Grove - Sound Sensor
 
-1 xGrove - Light Sensor v1.2
+1 x Grove - Light Sensor v1.2
 
-1 xGrove - Gas Sensor\(MQ2\)
+1 x Grove - Gas Sensor\(MQ2\)
 
-1 xGrove - Button
+1 x Grove - Button
 
 `Actutor:`
 
 1 x Grove - Relay
 
-1 xGrove - OLED Display 0.96"
+1 x Grove - OLED Display 0.96"
 
-1 xGrove - 4 Digit Display
+1 x Grove - 4 Digit Display
 
-1 xGrove - Mini I2C Motor Driver v1.0
+1 x Grove - Mini I2C Motor Driver v1.0
 
-1 xDC Motor
+1 x DC Motor
 
-1 xMini Fan
+1 x Mini Fan
 
 **Specification**
 
