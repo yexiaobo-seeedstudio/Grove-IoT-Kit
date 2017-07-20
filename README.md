@@ -10,13 +10,11 @@ Grove Kit for Win10 IoT Core & Azure Platform是一款为Microsoft Azure设计�
 
 ![](/assets/diagram.png)
 
-**Scenarios:**
+**Scenarios and features:**
 
-**`Scenario 1: Don't catch cold`**
+`Scenario 1: Don't catch cold`
 
 检测温湿度传感器的值。然后通知你不要着凉了。
-
-
 
 `Scenario 2: Sound&Light and relay`
 
@@ -24,25 +22,17 @@ Sound 或 Light 有一个触发条件，大于某个数值会触发 Relay Functi
 
 然后Function会连接到IFTTT的 Maker 通道。
 
-
-
 `Scenario 3: GAS monitor`
 
 Gas 发送数据到 Azure，如果 CO 超标，触发异常 function，发送 eamil 给用户，同时打开 mini i2c motor driver（或者 mini fan？）1x Grove - 4 Digit Display $5.90 实时显示 Gas （CO）含量。问题：驱动电机做什么？抽风？还是？
-
-
 
 `Scenario 4: One-Click SOS`
 
 Button 触发 SOS 事件，Function 发送 Email 或者电话给家人。
 
-
-
 `Scenario 5: Human detector`
 
 PIR 发送人体运动事件到 iot hub，半个小时内 PIR 触发 &gt; 三次，记录这半小时为有人时段。发一份统计报告到 PowerBI
-
-
 
 **What's included?**
 
@@ -75,4 +65,28 @@ PIR 发送人体运动事件到 iot hub，半个小时内 PIR 触发 &gt; 三次
 1 xDC Motor
 
 1 xMini Fan
+
+**Specification**
+
+ - Connect map between Grove and GrovePi:
+
+| Grove | GrovePi Port |
+| :--- | :--- |
+| D2 | Grove - Temp&Humi Sensor |
+| D3 | Grove - PIR Motion Sensor |
+| D4 | Grove – Button |
+| D5 | Grove - Relay |
+| A0 | Grove - Sound Sensor |
+| A1 | Grove - Light Sensor |
+| A2 | Grove - Gas Sensor |
+| I2C1 | Grove - OLED Display 0.96" |
+| I2C2 | Grove - Mini I2C Motor Driver |
+
+**Resources:**
+
+[Buy the kit](http://seeedstuido.com)
+
+[Source code at Gtihub](https://github.com/Seeed-Studio/AzureGroveKit)
+
+[UWP code](https://github.com/Seeed-Studio/AzureGroveKit/tree/master/UWP)
 
