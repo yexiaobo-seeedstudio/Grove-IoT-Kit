@@ -2,9 +2,13 @@
 
 **Note:** This guide book specailly design for `Grove Kit for Win10 IoT Core & Azure Platform` which is created by [Seeed Studio](http://seeed.cc)'s Grove module and [Microsoft Azure](http://azure.microsoft.com) services.
 
+-------------
+
 Grove Kit for Win10 IoT Core & Azure Platform is an IoT development kit which contains some Grove hardware module and  designed for Microsoft Azure services.
 
-与传统的Grove Gettting Started不同的是，这款套件不关心具体的硬件开发，而是帮助你快速的了解和学习使用Windows IoT Core和Microsoft Auzre，以及其他的相关的服务。并且我们为此套件撰写一本Guide Book，其中包括了五个在不同Scenario下的项目。
+Unlike traditional Grove Getting Started kit, this kit does not concerned with how to write hardware driver or embedded development, but helps you quickly understand and learn how to use Windows 10 IoT Core and Microsoft Azure services. And We wrote a guide book for this Grove kit which included five projects with separate scenario.
+
+**Overview:**![](https://raw.githubusercontent.com/Seeed-Studio/AzureGroveKit/master/physical.jpg)
 
 **Architecture diagram:**
 
@@ -14,25 +18,23 @@ Grove Kit for Win10 IoT Core & Azure Platform is an IoT development kit which co
 
 `Scenario 1: Don't catch cold`
 
-检测温湿度传感器的值。然后通知你不要着凉了。
+Check the value of the temperature and humidity sensor. And then tell you not to catch cold when it low.
 
 `Scenario 2: Sound&Light and relay`
 
-Sound 或 Light 有一个触发条件，大于某个数值会触发 Relay Function。
-
-然后Function会连接到IFTTT的 Maker 通道。
+When the Sound or Light sensor is greater than a value triggers the Microsoft Azure Function for relay sensor, then Function connects to the Maker channel of the IFTTT.
 
 `Scenario 3: GAS monitor`
 
-Gas 发送数据到 Azure，如果 CO 超标，触发异常 function，发送 eamil 给用户，同时打开 mini i2c motor driver（或者 mini fan？）1x Grove - 4 Digit Display $5.90 实时显示 Gas （CO）含量。问题：驱动电机做什么？抽风？还是？
+Gas send data to Azure, if CO‘s value exceeded, triggering exception Microsoft Azure Function, send eamil to the user, as well as opening mini fan.
 
 `Scenario 4: One-Click SOS`
 
-Button 触发 SOS 事件，Function 发送 Email 或者电话给家人。
+Button triggers an SOS event, Microsoft Azure Function sends an email or a call to a family.
 
 `Scenario 5: Human detector`
 
-PIR 发送人体运动事件到 iot hub，半个小时内 PIR 触发 &gt; 三次，记录这半小时为有人时段。发一份统计报告到 PowerBI
+PIR sensor sends human motion events to Microsoft Azure IoT Hub, within half an hour PIR triggers more than three times, recording this and then send a statistical report to PowerBI.
 
 **What's included?**
 
