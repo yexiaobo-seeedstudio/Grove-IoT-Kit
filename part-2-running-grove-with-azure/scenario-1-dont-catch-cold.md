@@ -116,7 +116,7 @@ private class GroveMessage
 
 #### Outcome
 
-The result after running program.
+Get an alert email from Azure Function.
 
 #### Refer links:
 
