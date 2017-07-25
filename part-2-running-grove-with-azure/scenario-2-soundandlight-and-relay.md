@@ -38,7 +38,7 @@ hardware list:
 
 0.Creating IFTTT Maker Channel webhook
 
-Go to `https://ifttt.com/services/maker_webhooks/settings` and then you will see this:![](/assets/ifttt-webhook-page.png)
+Go to [`https://ifttt.com/services/maker_webhooks/settings`](https://ifttt.com/services/maker_webhooks/settings) and then you will see this:![](/assets/ifttt-webhook-page.png)
 
 Click `Connect` Button, then get the link![](/assets/ifttt-webhook-finish.png)
 
