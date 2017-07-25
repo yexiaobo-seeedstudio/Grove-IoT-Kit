@@ -121,5 +121,5 @@ private class GroveMessage
 
 #### Outcome
 
-The result after running program.
+Nothing.
 
