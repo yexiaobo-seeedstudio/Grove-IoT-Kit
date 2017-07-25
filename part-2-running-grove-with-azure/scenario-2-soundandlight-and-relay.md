@@ -7,7 +7,16 @@ And how we do.
 
 #### Hardware setup
 
-which Grove will be use and how to connect.
+Connecting `Grove - Sound Sensor` to GrovePi+'s`A0` and `Grove - Light Sensor` to GrovePi+'s`A1` port. And then power the Raspberry Pi with USB.
+
+hardware list:
+
+1. Raspberry Pi 3
+2. GrovePi+
+3. Grove - Sound Sensor and Grove - Light Sensor
+4. 2 x Grove Cable
+
+**Diagram:**![](/assets/sound-light-azure.png)
 
 #### Azure services
 
@@ -18,8 +27,6 @@ which Grove will be use and how to connect.
 #### Up and run
 
 **set up**
-
-
 
 **code**
 
