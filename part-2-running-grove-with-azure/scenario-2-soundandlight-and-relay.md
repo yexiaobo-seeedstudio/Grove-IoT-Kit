@@ -44,7 +44,7 @@ Click `Connect` Button, then get the link![](/assets/ifttt-webhook-finish.png)
 
 1.Copy Event Hub's name![](/assets/event-hub-ifttt.png)
 
-1. Create function for this case![](/assets/create-function-for-ifttt.png)![](/assets/new-eventhub-trigger.png)  ![](/assets/new-name.png)    ![](/assets/function-coding.png)![](/assets/sound-light-relay-function-project-json.png)![](/assets/sound-light-relay-function-succeeded.png)
+1.Create function for this case![](/assets/create-function-for-ifttt.png)![](/assets/create-function-for-ifttt.png)![](/assets/create-function-for-ifttt.png)![](/assets/create-function-for-ifttt.png)![](/assets/create-function-for-ifttt.png)![](/assets/new-eventhub-trigger.png)  ![](/assets/new-name.png)    ![](/assets/function-coding.png)![](/assets/sound-light-relay-function-project-json.png)![](/assets/sound-light-relay-function-succeeded.png)
 
 3.Test function\(please copy code section to function\)  
 ![](/assets/sound-light-ifttt.png)
