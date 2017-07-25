@@ -17,10 +17,15 @@ hardware list:
 
 **Diagram:**![](/assets/diagram-for-scenario1.png)
 
-#### Azure services
+#### Services
+
+**Azure sevices**
 
 * Micrsoft Azure IoT Hub: Use to manage and monitor Grove module.
 * Micrsoft Azure Functions: We can use fuction to measures temperature and humidity data, and send an alert email via third-party email service.
+
+**Other services**
+
 * Gmail STMP service.
 
 #### Up and run

@@ -7,22 +7,29 @@ And how we do.
 
 #### Hardware setup
 
-Connecting `Grove - Sound Sensor` to GrovePi+'s`A0` and `Grove - Light Sensor` to GrovePi+'s`A1` port. And then power the Raspberry Pi with USB.
+Connecting `Grove - Sound Sensor` to GrovePi+'s`A0` port, `Grove - Light Sensor` to GrovePi+'s`A1` port and `Grove - Relay` to `D5`. And then power the Raspberry Pi with USB.
 
 hardware list:
 
 1. Raspberry Pi 3
 2. GrovePi+
-3. Grove - Sound Sensor and Grove - Light Sensor
-4. 2 x Grove Cable
+3. Grove - Sound Sensor, Grove - Light Sensor and Grove - Relay
+4. 3 x Grove Cable
 
-**Diagram:**![](/assets/sound-light-azure.png)
+**Diagram:**
 
-#### Azure services
+![](/assets/sound-light-azure.png)
+
+#### Services
+
+**Azure sevices**
 
 * Micrsoft Azure IoT Hub: Use to manage and monitor Grove module.
-* Micrsoft Azure Functions: We can use fuction to measures temperature and humidity data, and send an alert email via third-party email service.
-* IFTTT Maker Channel: It's a webhook services, you need to sign up account and generate an unique URL by yourself.
+* Micrsoft Azure Functions: We can use Azure Fuction to post request for IFTTT webhook service, and trigger Grove - Relay module.
+
+**Other services**
+
+* IFTTT Maker Channel: It's a webhook services, you need to sign up account and generate an unique URL by yourself
 
 #### Up and run
 
