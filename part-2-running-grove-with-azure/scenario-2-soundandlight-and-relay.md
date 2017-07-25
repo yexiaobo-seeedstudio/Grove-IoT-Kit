@@ -2,8 +2,9 @@
 
 #### What problem does Scenario 2 solve?
 
-short description the scenario 2.  
-And how we do.
+In this scenario, we will use three Grove modules to build a sound&light monitor which will trigger relay module when it detect the sound is too loud. 
+
+In this case, we using the Azure Function, when the sound is too loud it will trigger the Function, which control the relay to do something. In addition we also use the IFTTT Maker channel, post a trigger request to IFTTT then you can connect it to other IFTTT channel, such as Facebook, Twitter and etc.
 
 #### Hardware setup
 
@@ -34,6 +35,18 @@ hardware list:
 #### Up and run
 
 **set up**
+
+0.Create IFTTT Maker Channel webhook
+
+Go to `https://ifttt.com/services/maker_webhooks/settings` and then you will see this:![](/assets/ifttt-webhook-page.png)
+
+Click `Connect` Button, then get the link![](/assets/ifttt-webhook-finish.png)
+
+1.Copy Event Hub's name![](/assets/event-hub-ifttt.png)
+
+2. Create function for this case![](/assets/create-function-for-ifttt.png)![](/assets/new-eventhub-trigger.png)  ![](/assets/new-name.png)    ![](/assets/function-coding.png)![](/assets/sound-light-relay-function-project-json.png)![](/assets/sound-light-relay-function-succeeded.png)
+
+3.Test function\(please copy code section to function\)![](/assets/sound-light-ifttt.png)
 
 **code**
 
