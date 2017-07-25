@@ -43,7 +43,7 @@ hardware list:
 
 **code**
 
-```c\#
+```csharp
 using System;
 using Newtonsoft.Json;
 using Microsoft.Azure.Devices;
